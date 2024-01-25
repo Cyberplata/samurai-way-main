@@ -6,3 +6,11 @@
 .item {
     color: greenyellow;
 }
+
+.item.focus {
+    color: aqua;
+}
+
+.item.active {
+    color: #a90f02;
+}
