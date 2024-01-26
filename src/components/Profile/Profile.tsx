@@ -14,7 +14,7 @@ const Profile = () => {
             <div className={`${s.item} ${s.focus}`}>
                 ava + description
             </div>
-            <MyPosts/>
+            <MyPosts hey='yo!'/>
         </div>
     )
 }

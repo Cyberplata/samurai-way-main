@@ -3,17 +3,17 @@ import './MyPosts.module.css';
 import s from './MyPosts.module.css'
 import Post from "./Post/Post";
 
-const MyPosts = () => {
+const MyPosts = (props: any) => {
     return (
         <div>
-            My post
+            My post { props.hey }
             <div>
                 <textarea></textarea>
                 <button>Add post</button>
                 <button>Remove</button>
             </div>
-            <Post message='Hi, how are you?'/>
-            <Post message="It's my first post"/>
+            <Post message='Hi, how are you?' amountLikes='15'/>
+            <Post message="It's my first post" amountLikes='20'/>
         </div>
     );
 }
