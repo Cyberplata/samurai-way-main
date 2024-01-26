@@ -5,7 +5,7 @@ import MyPosts from "./MyPosts/MyPosts";
 
 const Profile = () => {
     return (
-        <div className={s.content}>
+        <div>
             <div>
                 <img
                     src="https://media.istockphoto.com/id/1283376667/photo/autumn-lake-panorama.jpg?s=612x612&w=0&k=20&c=uAWmhFJTwBxCmiQwIwdMkWzjdfHgmicUqp5OauzegvM="
