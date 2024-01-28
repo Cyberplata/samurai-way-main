@@ -4,7 +4,7 @@ import s from './Settings.module.css'
 const Settings = (props: any) => {
     return (
         <div>
-            Music
+            Settings
         </div>
     );
 }
