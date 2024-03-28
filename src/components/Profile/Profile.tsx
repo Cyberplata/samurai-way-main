@@ -3,6 +3,10 @@ import './Profile.module.css';
 import s from './Profile.module.css'
 import MyPosts from "./MyPosts/MyPosts";
 
+// type ProfileType = {
+//     title: string
+// }
+
 const Profile = () => {
     return (
         <div>
@@ -13,6 +17,7 @@ const Profile = () => {
             </div>
             <div className={`${s.item} ${s.focus}`}>
                 ava + description
+                {/*{props.title}*/}
             </div>
             <MyPosts hey='yo!'/>
         </div>
